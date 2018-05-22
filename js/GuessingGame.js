@@ -156,7 +156,7 @@ var resetGame = function() {
     $('.guess').text('-');
 
     //reset buttons
-    $('#hint', '#submit').prop("disabled",false);
+    $('#hint, #submit').prop("disabled",false);
 }
 
 // All jQuery code
